@@ -1,0 +1,96 @@
+#lietkecacbv tr:nth-child(odd)
+{
+    background-color: #969696;
+    
+    
+}
+#lietkecacbv tr{
+    background-color: #ececec;
+}
+#lietkecacbv
+{
+    width: 100%;
+    font-size: 14px;
+}
+
+table
+{
+    margin:auto;
+}
+button
+{
+    font-family: 'Patrick Hand', cursive;
+}
+#thembaiviet
+{
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#noidungctbv
+{
+    width: 98%;
+    height: 95%;
+    background-color: #afafaf;
+    margin-top: 1%;
+    margin-left: 2%;
+    overflow: scroll;
+}
+#noidungctbv table
+{
+    width: 60%;
+    border: 3px solid #007ACC;
+}
+#chitietbv
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
+#ndctbaiviet
+{
+    width: 98%;
+    height: 95%;
+    background-color: #afafaf;
+    margin-top: 1%;
+    margin-left: 2%;
+    overflow: scroll;
+}
+#ndctbaiviet table
+{
+    width: 98%;
+    border: 3px solid #007ACC;
+    height: auto;
+    
+}
+#fullbv
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+#ndfullbv
+{
+    width: 98%;
+    height: 95%;
+    background-color: #afafaf;
+    margin-top: 1%;
+    margin-left: 2%;
+    overflow: scroll;
+}
+#ndfullbv h1
+{
+    background-color: #007ACC;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}

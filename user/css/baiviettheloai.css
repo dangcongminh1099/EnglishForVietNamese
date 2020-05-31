@@ -1,0 +1,281 @@
+    *
+    {
+        word-wrap: break-word;
+        font-family: 'Patrick Hand', cursive;
+    }
+    body
+    {
+        padding: 0px;
+        margin:0px;
+        background-image: url(bangphan.jpg);
+        height: 550px;
+    }
+    li
+    {
+        list-style: none;
+    }
+    #alltl
+    {
+        width: 80%;
+        border-top: 3px white solid;
+        margin: auto;
+        margin-top: 5%;
+    }
+    div.bv
+    {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 3%;
+    }
+    div.imgbv
+    {
+        width: 20%;
+        height: 100%;
+        float: left;
+        margin-right: 3%;
+        display: flex;
+        border:2px solid white;
+    }
+    div.imgbv img
+    {
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+        width: auto;
+        margin:auto;
+    }
+    div.mtbv
+    {
+        width: 75%;
+        height: 100%;
+        float: left;
+    }
+    h2
+    {
+        margin: 0px;
+    }
+    #tentl
+    {
+        width: 100%;
+        height: 55px;
+        text-align: center;
+    }
+    #tentl button
+    {
+        font-size: 20px;
+    }
+    a{
+        text-decoration:none;
+        color: white;
+        font-family: 'Patrick Hand', cursive;
+        cursor: pointer;
+    }
+    #wrapctbaiviet
+    {
+        display: none;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        font-family: inherit !important;
+        width: 100%;
+        overflow: scroll;
+        background-color: #808080bd;
+    }
+    #ctbaiviet
+    {
+        position: absolute;
+        top: 2%;
+        width: 96%;
+        height: auto;
+        left: 2%;
+        background-color: #eaeaea;
+        font-family: inherit !important;
+        border-radius: 7px;
+    }
+   
+
+    #wrapctbaiviet::-webkit-scrollbar {
+        display: none;
+    }
+    #tieudebv
+    {
+        background-color: #007ACC;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        font-size: 35px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        margin:0px;
+    }
+    #tieudebv i
+    {
+        text-align: left;
+        color: black;
+        position: absolute;
+        top: 0px;
+        right: 1%;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    #tieudebv i:hover
+    {
+        color: white;
+    }
+    /* CSS phần translate */
+.click {
+    border-radius:5px;
+  width: auto;
+  border: 2px solid #007ACC;
+  text-align: center;
+  color: #007ACC;
+  font-family: arial;
+  position: absolute;
+  background-color:white;
+  display:none;
+}
+
+.click:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #007ACC;
+  border-bottom: 5px solid transparent;
+  right: 50%;
+  bottom: -11px;
+}
+
+.click:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid transparent;
+  right: 50%;
+  bottom: -9px;
+}
+#block 
+{
+    width:23%;
+    height:55%;
+    background-color:white;
+    position:relative;
+    font-family: 'Patrick Hand', cursive;
+    border:2px solid #007ACC;
+    display: none;
+}
+#headerblock 
+{
+    width:100%;
+    height:8%;
+    background-color:#007ACC;
+}
+#contentblock
+{
+    width:100%;
+    height:86%;
+    background-color:white;
+}
+#contentblock::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+/* Track */
+#contentblock::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+#contentblock::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+#contentblock::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+#footerblock
+{
+    width:100%;
+    height:6%;
+    background-color:#007ACC;
+} 
+#headerblock  h3 
+{
+    
+    text-align:center;
+    color:white;
+    margin:0px;
+    font-size:21px;
+    letter-spacing: 3px;
+}
+#aftertrans
+{
+    padding:3%;
+    margin:0px;
+    font-size:17px;
+}
+#aftertrans h5 
+{
+    font-size:22px;
+    margin-top:0px;
+    margin-bottom:5%;
+}
+#aftertrans ul
+{
+    padding-left: 7%;
+    list-style-type: circle;
+}
+#aftertrans ul li
+{
+    list-style-type: circle;
+}
+#volumntools
+{
+    font-size:20px;
+    padding:3%;
+}
+#volumntools i 
+{
+    margin-left:7%;
+    cursor:pointer;
+}
+#load 
+{
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#aba6a6;
+    top:0px;
+    left:0px;
+    display:none;
+    z-index:99;
+}
+#circleload 
+{
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    border-radius:100px;
+    border:10px solid white;
+    border-top:10px solid #007ACC;
+    animation:load 2s infinite linear;
+}
+@keyframes load 
+{
+    0%{transform:translate(-50%,-50%) rotate(0deg);}
+    100%{transform:translate(-50%,-50%) rotate(360deg);}
+}
+.tieudedich
+{
+    color:#007ACC;
+}

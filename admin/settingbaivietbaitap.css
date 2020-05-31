@@ -1,0 +1,644 @@
+div.popup
+{
+    background-color: #808080bd;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+form.contentpopup
+{
+    width: 96%;
+    background-color: #bbbaba;
+    height: 90%;
+    margin: auto;
+    overflow: scroll;
+    margin-top:20px;
+
+    
+}
+form.contentpopup table
+{
+    float: left;
+    width: 55%;
+}
+div.phuoggan
+{
+    float: left;
+    width: 41%;
+    right: 48px;
+    border:1px solid;
+    position: fixed;
+}
+#timkiem
+{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    height: 210px;
+}
+#timkiem input
+{
+    width: 35%;
+}
+table
+{
+    margin: auto;
+}
+#tieudetable
+{
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+}
+button
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type=submit]
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type=text]
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type=number]
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+select
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+select option
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+div.contentphuongan
+{
+    font-size: 14px;
+    width: 100%;
+    display: none;
+    padding: 3px;
+    
+}
+div.contentphuongan ul li
+{
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+}
+div.contentphuongan ul 
+{
+    width: 100%;
+    height: 30px;
+    padding: 0px;
+}
+div.contentphuongan h3
+{
+    font-size: 15px;
+}
+div.contentphuongan a 
+{
+    text-align: center;
+}
+form.contentpopup h1
+{
+    background-color: #007ACC;
+    text-align:  center;
+}
+#thembaitap
+{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    background-color: darkolivegreen;
+    top: 0px;
+    left: 0px;
+
+}
+#dienthongtin
+{
+    width: 98%;
+    left: 10px;
+    height: 98%;
+    background-color: rgb(199, 196, 196);
+    position: absolute;
+    top: 5px;
+    overflow: scroll;
+}
+#dienthongtin h2
+{
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    background-color: #007ACC;
+    margin-top: 0px;
+    line-height:55px;
+    font-size: 27px;
+    
+
+}
+#dienthongtin form table tr:first-child
+{
+    background-color: gray;
+}
+#dienthongtin form table tr:last-child
+{
+    background-color: gray;
+}
+#closethembaitap
+{
+    font-size: 50px;
+    position: fixed;
+    right: 50px;
+    color: #00000073;
+}
+#closethembaitap:hover
+{
+    color: black;
+    cursor: pointer;
+}
+#closethemcauhoi
+{
+    font-size: 50px;
+    position: fixed;
+    right: 50px;
+    color: #00000073;
+    top: 5px;
+}
+#closethemcauhoi:hover
+{
+    color: black;
+    cursor: pointer;
+}
+#iconthembaitap
+{
+    font-size: 30px;
+    color: green;
+}
+#iconxoabaitap
+{
+    
+    font-size: 30px;
+    color: red;
+
+}
+#tbtthanhcong
+{
+    width: 90%;
+    border-left: 4px solid green;
+    background-color: white;
+    padding: 20px;
+    margin:auto;
+}
+#themcauhoi
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #ffffff00;
+
+}
+#ndthemcauhoi
+{
+    width: 97%;
+    height: 97%;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: gray;
+    overflow: scroll;
+}
+#ndthemcauhoi h1
+{
+    text-align: center;
+    background-color: #007ACC;
+    margin:0px;
+    margin-bottom: 0px;
+    line-height: 55px;
+}
+#formthemcauhoi
+{
+    background-color: #F8F6F8;
+    width: 100%;
+    margin:auto;
+
+}
+#formthemcauhoi span
+{
+    color: #b10b0b;
+    font-family: 'Patrick Hand', cursive;
+}
+#formthemcauhoi table
+{
+    width: 90%;
+    margin:auto;
+    padding-top: 1%;
+}
+#formthemcauhoi input[type=text]
+{
+    width: 100%;
+    height: 35px;
+}
+#formthemcauhoi table tr td table
+{
+    width: 100%;
+}
+#formthemcauhoi table tr
+{
+    margin-bottom: 30px;
+}
+#formthemcauhoi table tr:first-child
+{
+    background-color: #333333;
+    color: white;
+}
+
+#formthemcauhoi table tr:last-child
+{
+    background-color: #333333;
+}
+#formthemcauhoi #multiplechoice
+{
+    background-color: white;
+    width: 100%;
+}
+#formthemcauhoi #multiplechoice tr
+{
+    background-color: #656363;
+}
+#formthemcauhoi table tr:last-child button
+{
+    width: 40%;
+    height:30px;
+    font-size: 17px;
+    cursor: pointer;
+}
+#tbthanhcong
+{
+    width: 95%;
+    font-size: 18px;
+    background-color: white;
+    margin: auto;
+    padding-left:20px;
+    padding-top: 20px;
+}
+#menutool
+{
+    width: 20%;
+    height: 55%;
+    background-color: rgb(250, 250, 250);
+    position: fixed;
+    top: 20%;
+    right: -20%;
+    text-align: center;
+    transition: 2s right;
+    z-index: 99;
+}
+#btn_menutool
+{
+    position: fixed;
+    top: 50%;
+    right: -2%;
+    transform: translate(0,-50%);
+    transform: rotate(-90deg);
+    transition: 2s right;
+    color: white;
+    background-color: #007ACC;
+    border-color: #007ACC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 99;
+    
+}
+#tieudetool
+{
+    background-color: #007ACC;
+    padding:10px;
+    margin:0px;
+    text-align: left;
+}
+#menutool button
+{
+    width: 90%;
+    text-align: left;
+    height: 9%;
+    margin-top: 3%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.iconaudio i
+{
+    font-size: 35px;
+    cursor: pointer;
+    color: red;
+}
+#themphuongan table
+{
+    margin: 20px
+}
+#lietkecauhoi
+{
+    width: 98%;
+    margin:auto;
+    height:500px;
+    font-size: 15px;
+    
+}
+
+.rowli
+{
+    list-style: none;
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    position: relative;
+    cursor: pointer;
+}
+.rowli:nth-child(even)
+{
+    background-color: #efefef;
+}
+.rowli:hover 
+{
+    background-color: #007ACC;
+
+}
+.rowli:hover .ulphuongan
+{
+    display: block;
+}
+.colli
+{
+    list-style: none;
+    float: left;
+    
+}
+.colli:first-child
+{
+    width: 72%;
+    
+}
+.colli:nth-child(2)
+{
+    width: 5%;
+    text-align: center;
+}
+.colli:nth-child(2) i
+{
+    font-size: 25px
+}
+.colli:nth-child(3)
+{
+    width: 5%;
+    text-align: center;
+}
+.colli:nth-child(4)
+{
+    width: 5%;
+    text-align: center;
+}
+.colli:nth-child(5)
+{
+    width: 8%;
+    text-align: center;
+}
+.colli:nth-child(6)
+{
+    width: 5%;
+    text-align: center;
+}
+#listcauhoi
+{
+    padding: 0px;
+}
+.rowli ul
+{
+    height: auto;
+    padding: 10px;
+}
+.ulphuongan
+{
+    position: absolute;
+    list-style: none;
+    top: -138%;
+    left: 38%;
+    padding: 0px;
+    width:47%;
+    height: auto;
+    background-color: #007ACC;
+    color: white;
+    display: none;
+}
+.rowphuongan
+{
+    list-style: none;
+    font-size: 13px;
+}
+.rowphuongan ul
+{
+    padding: 0px;
+    height: auto;
+}
+.rowphuongan ul li
+{
+    float: left;
+    list-style: none;
+    font-size: 12px;
+    
+}
+.colli p
+{
+    margin: 0px;
+}
+.colli a button
+{
+    cursor: pointer;
+}
+#bangchinhsuacauhoi
+{
+    background-color: #efefef;
+    
+}
+#bangchinhsuacauhoi tr:first-child th
+{
+    font-size: 25px;
+    background-color: #007ACC;
+}
+#bangchinhsuacauhoi tr:last-child th
+{
+    font-size: 25px;
+    background-color: #007ACC;
+    line-height: 20px;
+}
+#bangchinhsuacauhoi tr td
+{
+    padding: 1%;
+}
+#bangchinhsuacauhoi tr:nth-child(5) i
+{
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.audiochinhsuacauhoi
+{
+    text-align: center;
+    
+}
+.audiochinhsuacauhoi input
+{
+    margin:auto;
+}
+#trangcauhoi
+{
+    margin-top: 3%;
+    width: 50%;
+
+}
+#trangcauhoi a button
+{
+    cursor: pointer;
+}
+.bangchinhsuacauhoi
+{
+    background-color: #efefef;
+    
+}
+.bangchinhsuacauhoi tr:first-child th
+{
+    font-size: 25px;
+    background-color: #007ACC;
+}
+.bangchinhsuacauhoi tr:last-child th
+{
+    font-size: 25px;
+    background-color: #007ACC;
+    line-height: 20px;
+}
+.bangchinhsuacauhoi tr td
+{
+    padding: 1%;
+}
+.bangchinhsuacauhoi tr:nth-child(5) i
+{
+    font-size: 45px;
+    cursor: pointer;
+}
+#chuyencau
+{
+    width: 100%;
+    font-size: 20px;
+}
+#btchinhcauhoi
+{
+    text-align: center;
+    margin: 0% 0% 5% 40%;
+    background-color: #007ACC;
+    color: white;
+    height: 35px;
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#multiplechoice
+{
+    background-color: rgb(189, 189, 189);
+    margin:auto;
+    width: 80%;
+}
+.bangthongtinch
+{
+    width: 30%;
+    height: 150%;
+    background-color: #dedede;
+    position: absolute;
+    top: -155%;
+    left: 0%;
+    display:none;
+
+    
+}
+.rowli:hover .bangthongtinch
+{
+    display: block;
+}
+#hintsearch
+{
+    margin:unset;
+    width: 100%;
+}
+#hintsearch tr td
+{
+    text-align: initial;
+    font-size: 14px;
+}
+#hintsearch tr:nth-child(odd)
+{
+    background-color: #8a8989;
+    color: white;
+}
+#hintsearch tr:hover
+{
+    background-color: #007ACC;
+    color: #ffff00;
+}
+#hintsearch tr
+{
+    background-color: #eae2e2;
+    cursor: pointer;
+}
+#divhintsearch
+{
+    overflow-y: scroll;
+    width: 50%;
+    margin-left: 25.6%;
+    margin-top: 0.5%;
+    height: 90%;
+    display: none;
+    position: relative;
+}
+#divhintsearch i
+{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+}
+#divhintsearch::-webkit-scrollbar {
+    width: 2px;
+    height: 3px;
+}
+
+/* Track */
+#divhintsearch::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+#divhintsearch::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+#divhintsearch::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

@@ -1,0 +1,87 @@
+.menu ul li p
+{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    height: 35px;
+    margin-top: 0px;
+    
+}
+.menu ul li
+{
+    list-style: none;
+    float: left;
+    width: 110px;
+    height: 35px;
+    
+    
+}
+.menu ul li p:hover
+{
+    background-color: white;
+    color: #656565;
+}
+.menu
+{
+
+    width: 100%;
+    background-color: #2F5D3E;
+    height: 35px;
+
+}
+#timkiem
+{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+table
+{
+    margin: auto;
+}
+#tieudetable
+{
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+}
+button
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type=submit]
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type=text]
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type=number]
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+select
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+select option
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}

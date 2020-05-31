@@ -1,0 +1,423 @@
+body
+{
+    padding: 0px;
+    margin:0px;
+    background-image: url(bangphan.jpg);
+    height: 550px;
+}
+#chucmung
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#chucmung div
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    height: 20%;
+}
+#chucmung div span
+{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Patrick Hand', cursive;
+}
+#chucmung div a button
+{
+    width: 50%;
+    height: 50%;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    border-radius: 12px;
+}
+#content
+{
+    margin:auto;
+
+    
+
+}
+#tablebutton tr th button
+{
+    width: 45%;
+    height: 85%;
+    border-radius: 12px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    
+}
+#tablebutton
+{
+    width: 45%;
+    margin:auto;
+    height: 10%;
+}
+
+#content span
+{
+    font-size: 23px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-left: 12px;
+    line-height: 60px;
+}
+#content input[type=radio]
+{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+#content tr:nth-child(2) td
+{
+    border:3px solid white;
+    border-radius: 12px;
+   
+}
+#content tr:nth-child(2) td:hover
+{
+    border:3px solid deepskyblue;
+}
+#content tr:nth-child(2) td
+{
+    padding: 10px;
+}
+#content img
+{
+    border-radius: 12px;
+}
+h3
+{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 28px;
+    font-family: 'Patrick Hand', cursive;
+    display: inline;
+}
+#footer
+{
+    position: relative;
+    top: 45px;
+    width: 100%;
+    background-color:  #33ff33;
+    border-radius: 6px;
+    height: 60px;
+    display: none;
+}
+#footer i
+{
+    position: absolute;
+    left: 60px
+
+}
+#footer span
+{
+    position: absolute;
+    left: 130px;
+    top:8px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+}
+#footer button
+{
+    position: absolute;
+    right: 55px;
+    width: 15%;
+    height: 75%;
+    border-radius: 12px;
+    top: 12%;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 3px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#countdown
+{
+    width: 70%;
+    height: 35px;
+    background-color: red;
+    margin:auto;
+    text-align: center;
+    
+    border-radius: 12px;
+    position: relative;
+}
+#countdown h3
+{
+    position: absolute;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin:0px;
+}
+#counttime
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: #007ACC;
+    border-radius: 12px;
+    animation: minh 16s linear ;
+}
+@keyframes minh
+{
+    0%{width:0%}
+    100%{width: 100%}
+}
+#report
+{
+    width: 100%;
+    height: 100%;
+    background-color: #8080807a;
+    position: fixed;
+    top: 0px;
+    display: none;
+}
+#ndreport
+{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #383838;
+    border-radius: 12px;
+    
+}
+#ndreport a 
+{
+    text-decoration: none;
+}
+#ndreport a button
+{
+    font-size: 20px;
+    background-color: #007ACC;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    border-color: #007ACC;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+#ndreport h3
+{
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin:0px;
+    background-color: #007ACC;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+#ndreport p
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 3.5%;
+}
+/* #all
+{
+    margin-top: 25px;
+    height: 65%;
+}
+#content
+{
+    width: 100%;
+    height: 380px;
+
+}
+.audio
+{
+    width: 75%;
+    height: 60px;
+    margin:auto;
+}
+.audio p
+{
+    font-size: 30px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+}
+#select
+{
+    width: 90%;
+    height: 65%;
+    position: relative;
+    margin:auto;
+    top:0px;
+}
+
+#select div:nth-child(1)
+{
+    position: absolute;
+    left: 10%;
+    padding: 8px;
+}
+
+#select div:nth-child(2)
+{
+    position: absolute;
+    left: 40%;
+    padding: 8px;
+}
+
+#select div:nth-child(3)
+{
+    position: absolute;
+    left: 70%;
+    padding: 8px;
+}
+
+input[type="radio"]
+{
+    width: 20px;
+    height: 20px;
+}
+.radioselect
+{
+    width: 100%;
+    height: 20%;
+}
+span
+{
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    color: white
+}
+.button
+{
+    margin:auto;
+    width: 50%;
+    height: 70px;
+    position: relative;
+    top: 300px;
+
+    
+}
+.button button
+{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    border-radius: 12px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    top: 10px;
+    
+}
+.boqua
+{
+    left:160px;
+    
+}
+.tiep
+{
+    left: 400px;
+}
+#select img
+{
+    border:6px double white;
+    border-radius: 12px;
+}
+#footer
+{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: none;
+    top: 100px;
+    
+}
+#footer h2
+{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    float: left;
+    font-size: 25px;
+    position: absolute;
+    left: 105px;
+}
+#footer img
+{
+    position: absolute;
+    top: 10px;
+    left:50px;
+    color: rgb(250, 39, 39)
+}
+#footer button
+{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 20px;
+    width: 200px;
+    height: 55px;
+    font-size: 17px;
+}
+#start
+{
+    width:100%;
+    margin:auto;
+    height: 200px;
+    position: relative;
+}
+#start button
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: gray;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+#start button a
+{
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    text-decoration: none;
+    color: white;
+}
+#all h2
+{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    margin-left: 50px;
+
+}
+h1
+{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+
+} */

@@ -1,0 +1,110 @@
+body
+{
+    padding: 0px;
+    margin:0px;
+    background-image: url('bangphan.jpg');
+    height: 550px;
+}
+#search
+{
+    width: 35%;
+    position: relative;
+    text-align: center;
+    top: 55px;
+    height: 35px;
+    left: 450px;
+    overflow:hidden;
+
+}
+
+#search  input
+{
+    width: 90%;
+    height: 82%;
+    position: absolute;
+    border-radius: 10px;
+    
+    left: 0px;
+}
+#search  i
+{
+    font-size: 30px;
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    color: white;
+    
+}
+
+#menutuvung
+{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin:auto;
+    top: 50px;
+}
+.icon a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+#menutuvung h2
+{
+    color: white;
+    font-size: 26px;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    
+ 
+}
+#menutuvung h2:hover
+{
+    text-decoration: underline;
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+#menutuvung p
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 3px;
+}
+.icon
+{
+    width: 20%;
+    text-align: center;
+    border:5px solid white;
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.icon:hover
+{
+    background-color: gray;
+    border-color: deepskyblue;
+    cursor: pointer;
+
+
+}
+.icon:hover p
+{
+    color: deepskyblue;
+    font-weight: bold;
+}
+[class='fa fa-check']
+{
+    color: #07b507;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+}

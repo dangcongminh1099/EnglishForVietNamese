@@ -1,0 +1,167 @@
+#menuleft
+{
+    width: 22%;
+    background-color: #222222;
+    height: 100%;
+    left: -22%;
+    position: fixed;
+    transition: 1s;
+}
+#content
+{
+    width: 100%;
+    background-color: #bbbaba;
+    height: 100%;
+    float: left;
+    overflow: scroll;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 16px;
+}
+
+#all
+{
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    border-radius: 8px;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 625px;
+    display: flex;
+    background-image: url('img/img_parallax.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#menuleft h2 ul
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+#menuleft h2 ul li
+{
+    width: 100%;
+    height: 35px;
+    list-style: none;
+    text-align: right;
+    line-height: 35px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+#menuleft h3
+{
+    width: 100%;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+#menuleft a
+{
+    width: 93%;
+    background-color: #007ACC;
+    border-radius: 5px;
+    line-height: 35px;
+    text-align: right;
+    margin: auto;
+    margin-bottom: 25px;
+    height: 35px;
+    display: block;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+}
+#menuleft a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#welcome
+{
+    font-family: 'Patrick Hand', cursive;
+    padding-left: 20px;
+    font-size: 30px;
+    float: left;
+    width: 35%;
+    font-weight: bold;
+    color: white;
+}
+#contentheader
+{
+    width: 100%;
+    background-color: #007ACC;
+    height: 50px;
+}
+
+#logout
+{
+    line-height: 45px;
+    margin-left: 30%;
+    font-family: 'Patrick Hand', cursive;
+}
+#logout button
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+#comebackhome button
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+#contentheader a i
+{
+    font-size: 20px;
+}
+#toolmenust
+{
+    height: 5%;
+    width: 8%;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 50%;
+    left: -3%;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    background-color: #007ACC;
+    border-color: #007ACC;
+    transition: 1s;
+}
+#content::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+#content::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+#content::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+#content::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

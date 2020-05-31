@@ -1,0 +1,622 @@
+body
+{
+    padding: 0px;
+    margin:0px;
+    background-image: url(bangphan.jpg);
+    height: 550px;
+    font-family: 'Patrick Hand', cursive;
+}
+/*h3
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+h3 a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    
+}
+h3
+{
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.khoitin
+{
+    width: 100%;
+    height: 250px;
+    
+}
+.khoitin p
+{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 18px;
+}
+.khoitin div
+{
+    float: left;
+    width: 13%;
+    margin-left: 5%;
+    border:5px solid white;
+    border-radius: 12px;
+    height: 85%;
+    padding:20px;
+    cursor: pointer;
+}
+.khoitin div:hover
+{
+    border-color: deepskyblue;
+}
+#tieudetrang
+{
+    font-size: 35px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    text-align: center;
+    
+}
+#timkiembv
+{
+    margin:auto;
+    width: 19%;
+}
+#chitietbv
+{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #808080ba;
+}
+#noidungbv
+{
+    width: 96%;
+    height: 98%;
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    overflow: scroll;
+    background-color: #d0cccc;
+} */
+*{
+        
+        
+        word-wrap: break-word;
+    }
+    h1
+    {
+        color: white;
+        font-size: 30px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+    }
+    #all
+    {
+        width: 80%;
+        height: 88vh;
+        padding: 0px;
+        margin: 0px;
+        margin: auto;
+        margin-bottom: 8%;
+    }
+    #left
+    {
+        width: 40%;
+        height: 100%;
+        float: left;
+        
+        
+    }
+    #right
+    {
+        width: 60%;
+        height: 100%;
+        float: left;
+        position: relative;
+    }
+    div.content
+    {
+        width: 96%;
+        height: 30%;
+        position: absolute;
+        top: 0%;
+        left: 1%;
+        border: 3px solid white;
+        border-radius: 7px;
+        color: white;
+    }
+    div.content h5
+    {
+        color:#007ACC;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    div.content:nth-child(2)
+    {
+        top: 34%;
+    }
+    div.content:nth-child(3)
+    {
+        top: 68%;
+    }
+    div.imgleft
+    {
+        width:95%;
+        left:2%;
+        height: 65%;
+        position: absolute;
+        top: 3%;
+    }
+    #allcontentleft
+    {
+        width:96%;
+        height: 98%;
+        border: 3px solid white;
+        border-radius: 12px;
+        position: relative;
+    }
+    #allcontentleft:hover
+    {
+        border-color: #007ACC;
+    }
+    .content:hover
+    {
+        border-color: #007ACC;
+        cursor: pointer;
+    }
+    .imgleft img
+    {
+        display: block;
+        margin: auto;
+        width: auto;
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .contentleft
+    {
+        position: absolute;
+        top: 68%;
+        width: 96%;
+        left: 2%;
+    }
+    h1
+    {
+        margin:0px;
+        
+    }
+    h3
+    {
+        margin:0px;
+    }
+    .imgright  img
+    {
+        width: auto;
+        height: auto; 
+        display: block;
+        margin: auto auto;
+        max-height: 90%;
+        max-width: 90%;
+       
+    }
+    .imgright
+    {
+        width: 40%;
+        height: 100%;
+        vertical-align: middle;
+        display: flex;
+        float: left;
+    }
+    .detailcontent
+    {
+        width: 60%;
+        float: left;
+    }
+    p
+    {
+        width: 100%;
+        height: auto;
+        
+    }
+    body
+    {
+        height: 400vh;
+    }
+    .theloai
+    {
+        width: 79%;
+        height: 85vh;
+        margin: auto;
+        border-top: 5px solid #D8D8D8;
+        position: relative;
+        margin-top: 3%;
+    }
+    .btn_theloai
+    {
+        width: 100%;
+        text-align: center;
+        height: 10%;
+    }
+    .btn_theloai button
+    {
+        background-color: #007ACC;
+        font-size: 18px;
+        border-color: #007ACC;
+        color: white;
+        cursor: pointer;
+    }
+    .nd
+    {
+        width: 96%;
+        height: 77%;
+        margin: auto;
+    }
+    .blockcontent
+    {
+        float: left;
+        width: 45%;
+        height: 90%;
+        margin-right: 3%;
+        border: 3px solid white;
+        border-radius: 7px;
+
+    }
+    .contentnd .ndtieude
+    {
+        color: #007ACC;
+    }
+    .blockcontent:hover
+    {
+        border-color: #007ACC;
+    }
+    .img
+    {
+        width: 40%;
+        float: left;
+        height: 100%;
+        display: flex;
+    }
+    .contentnd
+    {
+        float: left;
+    }
+    .img img
+    {
+        display: block;
+        margin: auto;
+        width: auto;
+        height: auto;
+        max-height: 95%;
+        max-width: 95%;
+    }
+    .contentdong2
+    {
+        height: 48%;
+        width: 100%;
+    }
+    .contentdong1
+    {
+        height: 48%;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .contentnd
+    {
+        width: 56%;
+        height: 88%;
+        padding: 1%;
+    }
+    .ndtheloai
+    {
+        font-size: 23px;
+        color: #007ACC;
+    }
+    .ndtieude
+    {
+        font-size: 23px;
+        margin:1% 0 1% 0;
+    }
+    .ndmota
+    {
+        font-size: 17px;
+        margin:1% 0 1% 0;
+    }
+    h1.ndtieude
+    {
+        font-size: 30px;
+        letter-spacing: 3px;
+        text-align: left;
+    }
+    p.ndmota
+    {
+        color: white;
+    
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+        text-decoration-color: #007ACC;
+    }
+    #noidungpage
+    {
+        font-size: 50px;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+    }
+    #articlenear
+    {
+        font-size: 30px;
+        color: white;
+
+    }
+    #showmore
+    {
+        width: 35px;
+        height:35px;
+        text-align: center;
+        margin:auto;
+        border-radius: 56px;
+        border:5px solid  white;
+        border-top: 5px solid  #007ACC;
+        animation: spin 2s infinite linear;
+    }
+    @keyframes spin {
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    }
+
+    #wrapctbaiviet
+    {
+        display: none;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        font-family: inherit !important;
+        width: 100%;
+        overflow: scroll;
+        background-color: #808080bd;
+    }
+    #ctbaiviet
+    {
+        position: absolute;
+        top: 2%;
+        width: 96%;
+        height: auto;
+        left: 2%;
+        background-color: #eaeaea;
+        font-family: inherit !important;
+        border-radius: 7px;
+    }
+   
+
+    #wrapctbaiviet::-webkit-scrollbar {
+        display: none;
+    }
+    #tieudebv
+    {
+        background-color: #007ACC;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+    #tieudebv i
+    {
+        text-align: left;
+        color: black;
+        position: absolute;
+        top: 0px;
+        right: 1%;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    #tieudebv i:hover
+    {
+        color: white;
+    }
+    #timkiembv
+    {
+        width: 45%;
+        margin:auto;
+        text-align: center;
+        height: 20px;
+        position: relative;
+
+    }
+    #timkiembv input
+    {
+        height: 100%;
+        width: 60%;
+        border-radius: 5px;
+    }
+    #hintsearch
+    {
+        height: 700%;
+        width: 75%;
+        padding:0px;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%,0);
+        list-style: none;
+        text-align: left;
+        z-index: 99;
+    }
+    #hintsearch li
+    {
+
+        background-color: white;
+        padding-left: 3%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+    #hintsearch li:hover
+    {
+        background-color: gray;
+        color: white;
+    }
+
+/* CSS phần translate */
+.click {
+    border-radius:5px;
+  width: auto;
+  border: 2px solid #007ACC;
+  text-align: center;
+  color: #007ACC;
+  font-family: arial;
+  position: absolute;
+  background-color:white;
+  display:none;
+}
+
+.click:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #007ACC;
+  border-bottom: 5px solid transparent;
+  right: 50%;
+  bottom: -11px;
+}
+
+.click:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid transparent;
+  right: 50%;
+  bottom: -9px;
+}
+#block 
+{
+    width:23%;
+    height:55%;
+    background-color:white;
+    position:relative;
+    font-family: 'Patrick Hand', cursive;
+    border:2px solid #007ACC;
+    display: none;
+}
+#headerblock 
+{
+    width:100%;
+    height:8%;
+    background-color:#007ACC;
+}
+#contentblock
+{
+    width:100%;
+    height:86%;
+    background-color:white;
+}
+#contentblock::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+/* Track */
+#contentblock::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+#contentblock::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+#contentblock::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+#footerblock
+{
+    width:100%;
+    height:6%;
+    background-color:#007ACC;
+} 
+#headerblock  h3 
+{
+    
+    text-align:center;
+    color:white;
+    margin:0px;
+    font-size:21px;
+    letter-spacing: 3px;
+}
+#aftertrans
+{
+    padding:3%;
+    margin:0px;
+    font-size:17px;
+}
+#aftertrans h5 
+{
+    font-size:22px;
+    margin-top:0px;
+    margin-bottom:5%;
+}
+#aftertrans ul
+{
+    padding-left: 7%;
+}
+#volumntools
+{
+    font-size:20px;
+    padding:3%;
+}
+#volumntools i 
+{
+    margin-left:7%;
+    cursor:pointer;
+}
+#load 
+{
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#aba6a6;
+    top:0px;
+    left:0px;
+    display:none;
+    z-index:99;
+}
+#circleload 
+{
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    border-radius:100px;
+    border:10px solid white;
+    border-top:10px solid #007ACC;
+    animation:load 2s infinite linear;
+}
+@keyframes load 
+{
+    0%{transform:translate(-50%,-50%) rotate(0deg);}
+    100%{transform:translate(-50%,-50%) rotate(360deg);}
+}
+.tieudedich
+{
+    color:#007ACC;
+}

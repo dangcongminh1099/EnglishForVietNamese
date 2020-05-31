@@ -1,0 +1,89 @@
+body
+{
+    padding: 0px;
+    margin:0px;
+    background-image: url(bangphan.jpg);
+    height: 550px;
+}
+#all
+{
+    width: 70%;
+    height: 550px;
+    margin:auto;
+}
+#list
+{
+    width: 35%;
+    height: 100%;
+    float: left;
+
+}
+
+#logo
+{
+    width: 42%;
+    height: 100%;
+    position: fixed;
+    left: 42%;
+}
+#logoname
+{
+    font-size: 65px;
+    letter-spacing: 15px;
+}
+#mota
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+.lista
+{
+    display: block;
+    width: 85%;
+    height: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    margin:auto;
+    background-image: linear-gradient(to  right, #1B426B, #197BB6);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding:6px;
+    padding-left: 15px;
+    line-height: 20px;
+
+}
+.lista:first-child
+{
+    margin-top: 80px;
+}
+.lista:hover
+{
+    background-image: linear-gradient(to  right, #ffff57, #FDD13B);
+    color: #1B426B;
+
+}
+#listbt
+{
+    width: 70%;
+    margin: auto;
+    font-size: 23px;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+    
+}
+#listbt tr 
+{
+    background-color: white;
+    cursor: pointer;
+}
+#listbt tr:hover
+{
+    background-color: #1B426B;
+    color:white;
+}

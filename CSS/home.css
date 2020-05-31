@@ -1,0 +1,29 @@
+body
+{
+    padding: 0px;
+    margin:0px;
+    background: #2F5D3E;
+    background: cover;
+    background-repeat: no-repeat; 
+}
+#introduce
+{
+    width: 60%;
+    height: 420px;
+    margin: auto;
+    position: relative;
+
+}
+
+#introduce div
+{
+    position: absolute;
+}
+#introduce div:nth-child(2)
+{
+    font-size: 25px;
+    left: 600px;
+    top: 20px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+}

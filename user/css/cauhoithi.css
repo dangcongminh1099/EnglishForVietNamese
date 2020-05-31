@@ -1,0 +1,486 @@
+body
+{
+    padding: 0px;
+    margin:0px;
+    background-image: url(bangphan.jpg);
+    height: 550px;
+    word-wrap: break-word;
+}
+#baitest
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 1%;
+    left: 2%;
+
+}
+
+span.phuongan
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    text-transform: capitalize;
+
+    
+}
+#tieudebaitap
+{
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    margin-left: 3%;
+    letter-spacing: 2px;
+
+
+}
+#anhminhhoa
+{
+    position: absolute;
+    right: 10%;
+    top: 35%;
+
+}
+#menuleft
+{
+    background-color: #3a3a3a;
+    height: 70%;
+    width: 550px;
+    position: fixed;
+    top: 100px;
+    left: -565px;
+    transition: 1s;
+    z-index: 99;
+    border-left: 7px solid white;
+    border-top: 7px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 12px;
+    overflow: scroll;
+    
+}
+.cacbaitap
+{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    display: block;
+    background-color: #228abf00;
+    text-decoration: none;
+    font-size: 17px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 5px;
+    word-spacing: 0px;
+    width: 98%;
+    margin:auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.cacbaitap:hover
+{
+    
+    background-color: #228ABF;
+}
+#menuleft button.not_login
+{
+    width: 100px;
+    height: 30px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    margin-left: 15px;
+    
+}
+#menuleft button.not_login:hover
+{
+    opacity: 0.8;
+}
+#buttonleft
+{
+    position: fixed;
+    top: 450px;
+    left: -28px;
+    transform: rotate(90deg);
+    font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    border:1px solid black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transition: 1s;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#headermenu
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 39px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin:0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #044a77;
+}
+#tentheloai
+{
+    display: block;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    color: white;
+    padding-left: 5px;
+    margin-bottom: 25px;
+
+}
+p
+{
+    margin: 0px;
+    display: inline;
+    
+}
+h3
+{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    letter-spacing: 0px;
+    font-weight: normal;
+    word-spacing: 1px;
+    font-size: 22px;
+    margin:0 0 1% 0;
+}
+.repport_true
+{
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    color: green;
+    display: none;
+}
+.repport_false
+{
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    color: red;
+    display: none;
+    
+}
+input[type="text"]
+{
+    height: 18px;
+}
+table.cauhoidapan
+{
+    margin-bottom: 25px;
+    width: 100%;
+}
+.hangphuongan td
+{
+    padding-left: 20px;
+}
+#tool
+{
+    position: fixed;
+    right: 0%;
+    background-color: #42659D;
+    width: 100%;
+    height: 7%;
+    bottom: 0%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+    line-height: 45px;
+}
+.buttontool
+{
+    cursor: pointer;
+    height: 30px;
+    border-radius: 12px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17px;
+    background-color: #F7E600;
+
+}
+#tieude
+{
+    width: 100%;
+    height: 8%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    line-height: 41px;
+}
+#dieuhuongtrang
+{
+    position: absolute;
+    right: 0%;
+    width: 15%;
+    height: 85%;
+    top: 12%;
+}
+#dieuhuongtrang button
+{
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-color: #044a77;
+}
+#dieuhuongtrang button i
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+#dieuhuongtrang a:first-child button
+{
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+#dieuhuongtrang a:last-child button
+{
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+label
+{
+    font-family: 'Patrick Hand', cursive;
+}
+#bangdapan span 
+{
+    background-color: #044a77;
+    padding: 2px 17px 1px 17px;
+    border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    word-spacing: 0px;
+    cursor: pointer;
+    color: white;
+    
+
+}
+#bangdapan
+{
+    background-color: gray;
+    height: auto;
+    width: auto;
+    border-radius: 7px;
+    position: fixed;
+    top: 21%;
+    right: 1%;
+}
+#bangdapan h2
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0px;
+    cursor: pointer;
+}
+
+#bangdapan table
+{
+    width: 100%;
+}
+.khoidien span
+{
+    background-color:#044a77;
+    padding: 2px 17px 1px 17px;
+    border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    word-spacing: 0px;
+    cursor: pointer;
+    color: white;
+}
+#baivietlq
+{
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+#baivietlq h2
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0px;
+    letter-spacing: 2px;
+}
+#baivietlq h3 a
+{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    text-decoration: none;
+}
+#baivietlq h3 a:hover
+{
+    text-decoration: underline;
+}
+#baivietlq a
+{
+    color: white;
+}
+.dongbaiviet:hover
+{
+    border-color: #afafaf;
+    cursor: pointer;
+}
+#baivietlq h3
+{
+    text-align: center;
+    margin-top: 3%;
+}
+.habaiviet
+{
+    width: 37%;
+    height: 100%;
+    background-color: #044a77;
+    float: left;
+    margin-right: 2%;
+    display: flex;
+
+}
+.ndbaiviet{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.ndbaiviet p
+{
+    font-size: 16px;
+    font-family: 'Patrick Hand', cursive;
+}
+.habaiviet img
+{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin:auto;
+}
+.dongbaiviet
+{
+    width: 93%;
+    height: 16%;
+    padding: 2%;
+    border: 4px solid white;
+    margin:auto;
+    border-radius: 8px;
+}
+#noidungch
+{
+    width: 62%;
+    float: left;
+}
+.chuoidapan
+{
+    display: none;
+    background-color: #044a77;
+    border-radius: 12px;
+    padding-left: 3%;
+}
+.chuoidapan p span
+{
+    color: black;
+}
+.selectpa
+{
+    font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 5px;
+    background-color: #044a77;
+    color: white;
+}
+#scorebt
+{
+    background-color: #808080a6;
+    height:100%;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+#bndiem
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height:30%;
+    width: 30%;
+    background-color: #3a3939;
+    border-radius: 12px;
+}
+#bndiem h2
+{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    text-align: center;
+    background-color: #044a77;
+    margin-top: 0px;
+    padding-top: 2%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+#score
+{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+#times
+{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 23px;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    text-align: center
+}
+#baitapnull
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: #c7c7c7;
+    width: 30%;
+    height: 17%;
+    border-radius: 12px;
+}
+#baitapnull h2
+{
+    background-color: #044a77;
+    color:white;
+    margin-top:0px;
+    padding: 1%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+#baitapnull h2 i
+{
+    color: yellow;
+}
+#baitapnull button
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
