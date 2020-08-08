@@ -51,6 +51,8 @@
     <?php
         $count++;
         $a=mysqli_fetch_array($excute);
+        if($a==null)
+            break;
         if($count==5 && $a["matheloai"]!=$matheloai)
         {
             $matheloai=$a["matheloai"];

@@ -1198,7 +1198,8 @@
                                     </table>
                                     <table>
                                         <tr id="footertable">
-                                            <th colspan="3" class="cotthempa"><a href="chinhsuacauhoi,phuongan.php?maphuongan=<?php echo $a[3]?>&option=<?php echo $_GET["option"]; ?>&danhmuc=<?php echo $_GET["danhmuc"]; ?>&mabt=<?php echo $_GET["mabt"]; ?>&macau=<?php echo $_GET["macau"]; ?>&action=them"><button type="button"><i class="fa fa-plus" style="font-size:25px;color:green"></i> Thêm phương án</button></a></th>
+                                            
+                                            <th colspan="3" class="cotthempa"><a href="chinhsuacauhoi,phuongan.php?maphuongan=<?php echo $a[3]?>&option=<?php echo $_GET["option"]; ?>&danhmuc=<?php echo $_GET["danhmuc"]; ?>&mabt=<?php echo $_GET["mabt"]; ?>&macau=<?php echo $_GET["macau"]; ?>&action=them"><button type="button"><i class="fa fa-plus" style="font-size:25px;color:green"></i><?php echo $a ?> Thêm phương án</button></a></th>
                                         </tr>
                                     </table>
                                 
@@ -1257,7 +1258,12 @@
                                             <th class="cotxoa"><a href="chinhsuacauhoi,phuongan.php?maphuongan=<?php echo $a[3]?>&option=<?php echo $_GET["option"]; ?>&danhmuc=<?php echo $_GET["danhmuc"]; ?>&mabt=<?php echo $_GET["mabt"]; ?>&macau=<?php echo $_GET["macau"]; ?>&action=xoa"><i class="fa fa-trash-o" style="font-size:30px;color:red;cursor:pointer"></i></a></th>
                                         </tr>
                                         <?php
+                                            $varAPrevious=$a;
                                             $a=mysqli_fetch_array($excute);
+                                            if($a==null){
+                                                $a=$varAPrevious;
+                                                break;
+                                            }
                                             $count++;
                                             }
                                         }

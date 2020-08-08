@@ -108,8 +108,8 @@
                     $error=$_FILES["audio"]["error"][$i];
                     $size=$_FILES["audio"]["size"][$i];
                     $count=0;
-                    $duoifilechophep=["mp3"];
-                    $typechophep=["mp3"];
+                    $duoifilechophep=["mp3","mpeg"];
+                    $typechophep=["mp3","mpeg"];
                     $linksave="../user/audio/$tenfile";
                     $linksavedatabase="user/audio/$tenfile";
                     for ($j=0; $j < count($duoifilechophep); $j++) 

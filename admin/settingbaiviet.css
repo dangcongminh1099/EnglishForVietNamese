@@ -87,6 +87,24 @@ button
     margin-left: 2%;
     overflow: scroll;
 }
+#ndctbaiviet::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  #ndctbaiviet::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  #ndctbaiviet::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  #ndctbaiviet::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 #ndfullbv h1
 {
     background-color: #007ACC;

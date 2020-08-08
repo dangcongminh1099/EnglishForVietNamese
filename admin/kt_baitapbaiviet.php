@@ -55,7 +55,7 @@
                 mysqli_query($connect,$query);
                 $a=mysqli_fetch_array($excute);
             }
-            header("Location:menusetting.php?page=3");
+            // header("Location:menusetting.php?page=3");
         }
         
     }
@@ -63,6 +63,7 @@
     {
         if(isset($_FILES["newimg"])&&$_FILES["newimg"]["size"]>0&&$_FILES["newimg"]["name"]!=""&&$_FILES["newimg"]["error"]==0)
         {
+            
             $duoifile=pathinfo($_FILES["newimg"]["type"],PATHINFO_BASENAME);
             $size=$_FILES["newimg"]["size"];
             $stringname=$_FILES["newimg"]["name"];
@@ -70,7 +71,7 @@
             $extension=pathinfo($_FILES["newimg"]["name"],PATHINFO_EXTENSION);
             $save_volatitle=$_FILES["newimg"]["tmp_name"];
             $save="../user/img baitap/imgbaiviet_baitap/$stringname";
-            $filetype=['png','jpeg','gif'];
+            $filetype=['png','jpeg','gif',"jpg"];
             $count=0;
             
             if($size/1024/1024<10)
@@ -129,7 +130,7 @@
         }
         else 
         {
-            header("Location:menusetting.php?page=3");
+            // header("Location:menusetting.php?page=3");
         }
         
         $mabaiviet_baitap=$_POST["mabaiviet_baitap"];
@@ -160,19 +161,20 @@
         $link=$_POST["link"];     
         $img=$_POST["img"];
         $tinhtrang=$_POST["tinhtrang"];
-        $img2="";
+        $img2=[];
         for ($i=0; $i <count($_FILES["newfile"]["name"]) ; $i++) 
         { 
             if(isset($_FILES["newfile"])&&$_FILES["newfile"]["size"][$i]>0&&$_FILES["newfile"]["name"][$i]!=""&&$_FILES["newfile"]["error"][$i]==0)
             {
                 $duoifile=pathinfo($_FILES["newfile"]["type"][$i],PATHINFO_BASENAME);
+                echo $duoifile;
                 $size=$_FILES["newfile"]["size"][$i];
                 $stringname=$_FILES["newfile"]["name"][$i];
                 $name=pathinfo($_FILES["newfile"]["name"][$i],PATHINFO_FILENAME);
                 $extension=pathinfo($_FILES["newfile"]["name"][$i],PATHINFO_EXTENSION);
                 $save_volatitle=$_FILES["newfile"]["tmp_name"][$i];
                 $save="../user/img baitap/imgbaiviet_baitap/$stringname";
-                $filetype=['png','jpeg','gif'];
+                $filetype=['png','jpeg','gif','jpg'];
                 $count=0;
                 
                 if($size/1024/1024<10)
@@ -221,7 +223,6 @@
                         break;
                     }
                 }
-                
                 if ($count==3) 
                 {
                     move_uploaded_file($_FILES["newfile"]["tmp_name"][$i],$save);
@@ -244,6 +245,7 @@
             }
             else 
             {
+                echo $img2[$i];
                 $query=$query.$img2[$i]."' where mabaiviet_baitap=".$mabaiviet_baitap[$i];
             }
             echo $query;
