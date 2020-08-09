@@ -217,25 +217,29 @@
         if(is_array($macau))
         {
             $query="delete from cauhoi where macau in(";
+            $qDeletePhuongAn="delete from tblphuongan where macau in(";
             for ($i=0; $i < count($macau); $i++) 
             { 
                 if($i==count($macau)-1)
                 {
                     $query=$query.$macau[$i].")";
+                    $qDeletePhuongAn=$qDeletePhuongAn.$macau[$i].")";
                 }
                 else 
                 {
                     $query=$query.$macau[$i].",";
+                    $qDeletePhuongAn=$qDeletePhuongAn.$macau[$i].",";
                 }
                 
             }
         }
         else 
         {
+            $qDeletePhuongAn="delete from tblphuongan where macau=$macau";
             $query="delete from cauhoi where macau =$macau";
         }
-        echo $query;
-        $excute=mysqli_query($connect,$query);
+        mysqli_query($connect,$qDeletePhuongAn);
+        mysqli_query($connect,$query);
         header("Location:menusetting.php?page=3&mabt=$mabt&option=1&trang=0");
     }
     else 

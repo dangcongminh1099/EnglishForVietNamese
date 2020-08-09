@@ -5,14 +5,14 @@
     if(isset($_GET["tentheloai"]))
     {
         $tentheloai=$_GET["tentheloai"];
-        $query="select tentheloai,tieude,img from tbltheloai where tentheloai=$tentheloai";
+        $query="select tentheloai,tieude,img from tbltheloai where tentheloai=$tentheloai and tinhtrang=0";
         $excute=mysqli_query($connect,$query);
         $a=mysqli_fetch_array($excute);
     }
     else 
     {
         
-        $query="select baiviet_baitap.matheloai,mabaiviet_baitap,tentheloai,tieude,img from tbltheloai inner join baiviet_baitap on tbltheloai.matheloai=baiviet_baitap.matheloai where madanhmuc=3 order by baiviet_baitap.matheloai";
+        $query="select baiviet_baitap.matheloai,mabaiviet_baitap,tentheloai,tieude,img from tbltheloai inner join baiviet_baitap on tbltheloai.matheloai=baiviet_baitap.matheloai where madanhmuc=3 and tinhtrang=0 order by baiviet_baitap.matheloai";
         $excute=mysqli_query($connect,$query);
         $a=mysqli_fetch_array($excute);
         $matheloai=$a["matheloai"];

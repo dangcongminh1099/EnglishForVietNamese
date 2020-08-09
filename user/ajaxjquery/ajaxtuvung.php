@@ -8,14 +8,14 @@
         $query="select *from cauhoi where macau>$macau and mabaiviet_baitap=$mabt";
         $excute=mysqli_query($connect,$query);
         $a=mysqli_fetch_array($excute);
-        $noidung=$a[1];
-        $macau=$a[0];
-        if($noidung==null &&$macau==null)
+        if($a==null)
         {
             echo "";
         }
-        else 
+        else
         {
+            $noidung=$a[1];
+            $macau=$a[0];
             $query="select *from tblphuongan where macau=$macau";
             $excute=mysqli_query($connect,$query);
             $a=mysqli_fetch_array($excute);

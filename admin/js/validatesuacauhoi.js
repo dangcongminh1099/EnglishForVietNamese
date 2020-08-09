@@ -49,10 +49,10 @@ function validateTextBox(x, y, z) {
     console.log(input[0].value);
     err = document.getElementsByClassName(z);
     for (var i = 0; i < input.length; i++) {
-        if (input[i].value.length > 5) {
+        if (input[i].value.length > 2) {
             console.log(input[i].value);
             var regular_express;
-            regular_express = /^[a-zA-Z0-9àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ?_ -]{5,100}$/;
+            regular_express = /^[a-zA-Z0-9àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ?_ -]{2,100}$/;
             var result;
             result = regular_express.test(input[i].value.toLowerCase());
             if (result == true) {
@@ -67,6 +67,7 @@ function validateTextBox(x, y, z) {
             err[i].innerHTML = ">> Tối thiểu 5 kí tự";
         }
     }
+    console.log(count);
     if (count == input.length) {
         y[0]++;
 
